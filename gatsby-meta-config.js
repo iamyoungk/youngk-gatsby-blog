@@ -1,26 +1,30 @@
 module.exports = {
-  title: `zoomkoding.com`,
-  description: `줌코딩의 개발일기`,
-  language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://www.zoomkoding.com`,
+  title: `youngk.dev`,
+  description: `YoungK's Devlog`,
+  language: `en`, // `ko`, `en` => currently support versions for Korean and English
+  siteUrl: `https://www.youngk.com`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
-      repo: ``, // `zoomkoding/zoomkoding-gatsby-blog`,
+      repo: `iamyoungk/younghk-gatsby-blog`, // `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
   ga: '0', // Google Analytics Tracking ID
   author: {
-    name: `정진혁`,
+    name: `Young Kim`,
     bio: {
-      role: `개발자`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
-      thumbnail: 'sample.png', // Path to the image in the 'asset' folder
+      role: ``,
+      description: [
+        'passionate developer dedicated to crafting elegant solutions through clean code and continuous learning.',
+        'innovative developer with a knack for problem-solving, transforming complex concepts into user-friendly applications.',
+        'collaborative developer skilled in communication and teamwork, thriving in dynamic environments to drive projects forward.',
+      ],
+      thumbnail: 'self.gif', // Path to the image in the 'asset' folder
     },
     social: {
-      github: ``, // `https://github.com/zoomKoding`,
+      github: `https://github.com/iamyoungk`, // `https://github.com/zoomKoding`,
       linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-      email: ``, // `zoomkoding@gmail.com`,
+      email: `younghkim0013@gmail.com`, // `zoomkoding@gmail.com`,
     },
   },
 
@@ -43,8 +47,8 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2021.02 ~',
-        activity: '개인 블로그 개발 및 운영',
+        date: '05.2023 ~ 08.2023',
+        activity: 'The Psyentist Intern',
         links: {
           post: '/gatsby-starter-zoomkoding-introduction',
           github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
@@ -72,15 +76,87 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        title: '개발 블로그 테마 개발',
+        title: 'The Legend of Zelda (NES)',
         description:
-          '개발 블로그를 운영하는 기간이 조금씩 늘어나고 점점 많은 생각과 경험이 블로그에 쌓아가면서 제 이야기를 담고 있는 블로그를 직접 만들어보고 싶게 되었습니다. 그동안 여러 개발 블로그를 보면서 좋았던 부분과 불편했던 부분들을 바탕으로 레퍼런스를 참고하여 직접 블로그 테마를 만들게 되었습니다.',
-        techStack: ['gatsby', 'react'],
-        thumbnailUrl: 'blog.png',
+          'I meticulously recreated the iconic first dungeon of the Legend of Zelda using C# and Unity,' +
+          'elevating the experience with a custom-designed level that stays true to the original while adding exciting new elements. Press 4 for the custom level.',
+        techStack: ['Unity', 'C#'],
+        thumbnailUrl: '',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          demo: 'https://younghk.itch.io/the-legend-of-zelda-nes',
+        },
+      },
+      {
+        title: 'Re: Them (2D Rhythm Game)',
+        description:
+          'Re: Them is a captivating 2D rhythm game developed with Unity and C#. The game includes three NCS songs: Light It Up, Why We Lose, and On & On.',
+        techStack: ['Unity', 'C#'],
+        thumbnailUrl: '',
+        links: {
+          demo: 'https://younghk.itch.io/re-them',
+        },
+      },
+      {
+        title: 'EECS 494 P3',
+        description: 'To be updated',
+        techStack: ['Unity', 'C#'],
+        thumbnailUrl: '',
+        links: {
+          demo: '',
+        },
+      },
+      {
+        title: 'Pager (OS)',
+        description: 'To be updated',
+        techStack: ['C++'],
+        thumbnailUrl: '',
+        links: {
+          demo: '',
+        },
+      },
+      {
+        title: 'File System (OS)',
+        description: 'To be updated',
+        techStack: ['C++'],
+        thumbnailUrl: '',
+        links: {
+          demo: '',
+        },
+      },
+      {
+        title: 'Map Reduce (Web)',
+        description: 'To be updated',
+        techStack: ['Python'],
+        thumbnailUrl: '',
+        links: {
+          demo: '',
+        },
+      },
+      {
+        title: 'Search Engine (Web)',
+        description: 'To be updated',
+        techStack: ['Python'],
+        thumbnailUrl: '',
+        links: {
+          demo: '',
+        },
+      },
+      {
+        title: 'Instagram Clone',
+        description: 'To be updated',
+        techStack: ['Flutter', 'Dart'],
+        thumbnailUrl: '',
+        links: {
+          demo: '',
+        },
+      },
+      {
+        title: 'Toonflix',
+        description: 'To be updated',
+        techStack: ['Flutter', 'Dart'],
+        thumbnailUrl: '',
+        links: {
+          demo: '',
         },
       },
     ],
