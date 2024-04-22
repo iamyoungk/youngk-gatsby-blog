@@ -97,12 +97,13 @@ module.exports = {
         },
       },
       {
-        title: 'EECS 494 P3',
-        description: 'To be updated',
+        title: 'B4 Last Shift',
+        description:
+          'A first person horror game where you escape a haunted parking lot as a parking lot security guard.',
         techStack: ['Unity', 'C#'],
         thumbnailUrl: '',
         links: {
-          demo: '',
+          demo: 'https://younghk.itch.io/b4lastshift',
         },
       },
       {
